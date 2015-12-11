@@ -1,0 +1,10 @@
+{
+  "name": "docker-node-test",
+  "version": "0.0.1",
+  "priavte": "true",
+  "description": "a simple node web app for docker test ",
+  "author": "huanli<lih@fenqi.im>",
+  "dependencies": {
+    "express": "latest"
+  }
+}
