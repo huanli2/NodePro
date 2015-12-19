@@ -5,6 +5,7 @@
   "description": "a simple node web app for docker test ",
   "author": "huanli<lih@fenqi.im>",
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "jsonwebtoken" : "^5.0.0"
   }
 }
