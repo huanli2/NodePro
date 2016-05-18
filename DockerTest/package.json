@@ -6,6 +6,7 @@
   "author": "huanli<lih@fenqi.im>",
   "dependencies": {
     "express": "latest",
-    "jsonwebtoken" : "^5.0.0"
+    "express-print-routes": "^1.0.0",
+    "jsonwebtoken": "^5.0.0"
   }
 }

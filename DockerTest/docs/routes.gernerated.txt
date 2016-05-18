@@ -1,0 +1,8 @@
+router                                                                                                         
+ ├── query                                         *                                                           
+ ├── expressInit                                   *                                                           
+ ├── <anonymous>                                   *                                                           
+ ├── __helloWorld                                  *                                                           
+ └── bound dispatch                                /token                                                      GET
+      └── <anonymous>                              /                                                           GET
+     
