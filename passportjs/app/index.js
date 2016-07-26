@@ -11,6 +11,14 @@ var session = require('express-session');
 var redisStore = require('connect-redis')(session);
 var redis = require('redis').createClient();
 
+redis.on('connect', function() {
+    console.log('connected');
+});
+
+redis.on('error', function() {
+    console.log('error');
+});
+
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({
     extended: true
